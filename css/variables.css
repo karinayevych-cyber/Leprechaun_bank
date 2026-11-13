@@ -1,0 +1,31 @@
+:root {
+    --color-accent: #fd8994;
+    --color-accent-light: rgba(253, 137, 148, 0.3);
+    --color-table: #fedcdf;
+    --color-text: #ffe7ea;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-bg: #111;
+    --color-surface-dark: #60605d;
+    --color-surface: #7d7d7b;
+    --color-hover: #302b2b;
+    --color-error: #ffb3ba;
+    --color-success: #b7f7c1;
+
+    --font-main: Georgia, "Times New Roman", serif;
+
+    --contour: 8px;
+    --shadow: 0 4px 100px #000;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --contour: 6px;
+    }
+}
+
+@media (max-width: 650px) {
+    :root {
+        --contour: 4px;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us · Obsidian Leprechaun Bank</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body class="page-contact">
+
+<div class="page">
+
+    <header class="header">
+        <h1 class="logo"><a href="page1.html">Obsidian Leprechaun<br>Bank</a></h1>
+        <p class="authors">Made by:<br>Evelina D., Sofiya Sh., Karina Ev.</p>
+    </header>
+
+    <nav class="nav" aria-label="Main navigation">
+            <a href="page1.html">About us</a>
+            <a href="page2.html">Security</a>
+            <a href="page3.html">Investor Relations</a>
+    </nav>
+
+        <main class="main section contact">
+            <h2 class="title">Fill in the form and we will contact you</h2>
+            <div class="ornament" aria-hidden="true"></div>
+
+            <form id="contactForm" class="form" novalidate>
+                <div class="field field--email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field field--phone">
+                    <label for="phone">Mobile phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="field field--city">
+                    <label for="city">City of residence:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="field field--name">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="field field--method">
+                    <label for="method">Preferred contact method:</label>
+                    <select id="method" name="method" required>
+                        <option value="">Select</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                </div>
+                <div class="field field--reason">
+                    <label for="reason">Reason for inquiry:</label>
+                    <textarea id="reason" name="reason" required></textarea>
+                </div>
+                <button type="submit" class="send-btn">Send</button>
+                <p id="formMessage" class="form-message" role="status"></p>
+            </form>
+        </main>
+        <aside class="side section" aria-hidden="true"></aside>
+
+</div>
+
+</body>
+</html>
